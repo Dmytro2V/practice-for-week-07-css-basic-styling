@@ -1,6 +1,14 @@
+* {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Nunito:wght@200&display=swap');
+
+
 h1 {
     font-size: ;
-    font-family: ;
+    font-family: 'Aboreto', cursive;
     padding: ;
     margin: ;
     font-weight: ;
@@ -13,25 +21,30 @@ h2 {
     font-size: ;
     font-family: ;
     padding: ;
-    margin: ;
+    margin:  ;
     font-weight: ;
     color: ;
     background-color: ;
 }
 
 p {
-    font-family: ;
+    font-family: 'Nunito', sans-serif;
     font-size: ;
     padding: ;
     margin: ;
+    
     color: ;
     background-color: ;
 }
 
 .logo {
     background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+    background-image: url("https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png");
+    background-color: red ;
+    height: 100px;
+    width: 100px;
+}
+.img {
+    height: 120px;
+    width: 120px;
 }
